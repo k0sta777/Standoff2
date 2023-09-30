@@ -1,0 +1,161 @@
+.header{
+background-image: url("../img/Stendoff 2.png");
+}
+.conteiner{
+max-width: 1200px;
+margin: 0 auto;
+}
+.conteiner_header{
+display: flex;
+justify-content: space-between;
+}
+.logo{
+font-family: 'Rozha One'; 
+font-style: normal;
+font-weight: 400;
+font-size: 64px;
+line-height: 182px;
+text-align: center;
+margin-bottom: 0;
+color: #FF0202;
+}
+.nav{
+margin: auto 0;
+margin-bottom: 0;
+}
+.menu{
+display: flex;	
+}
+.item{
+	margin-right: 50px;
+	list-style: none;
+}
+.link_menu{
+	text-decoration: none;
+	font-family: 'Reggae One';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 164.06%;
+/* or 39px */
+
+letter-spacing: 0.1em;
+
+color: #FD0000;
+
+}
+/*2 блок*/
+.img_hero_block{
+	height: 200px;
+	display: block;
+}
+.conteiner_heroBlok{
+	display: flex;
+	justify-content: space-around;
+}
+.hbbutton{
+	width: 225px;
+background: #34547A;
+margin-top:50px;
+}
+.title_HB{
+	color: red;
+	font-size: 32px;
+}
+.about{
+	background: #F9F9F9;
+}
+.title_about{
+	margin-top: 0;
+	padding-top: 70px;
+	color: red;
+	font-size: 33px;
+	text-align: center;
+
+}
+.text__about{
+	color: red;
+	text-align:conter;
+	max-width: 645px;
+	margin-right: auto;
+	margin-left: auto;
+}
+.about{
+	display: flex;
+	align-items: center;
+	justify-content: spece-between;
+	padding: 50px;
+}
+.text__1{
+	max-width: 908.54px;
+    color: red;
+}
+.text_lift{
+	color: red;
+	max-width: 651px;
+	text-align: center;
+}
+.a_img{
+	max-width: 484px;
+}
+.a_reght{
+	padding-left: 50px;
+}
+.title_vidio{
+	text-align: center;
+	margin: 0;
+	padding: 30px;
+}
+.vidio_tube{
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 15px;
+}
+.vidio{
+ background: #C41DC8;
+}
+.tatie_gelory{
+	text-align: center;
+	margin: 0;
+	padding: 70px 0;
+	font-size: 38px;
+}
+.bist__gelory{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	flex-wrap: wrap;
+}
+.img__gelory{
+	width: 100%;
+}
+.itm__gelory{
+	width: 25%;
+}
+.img_f{
+	height: 40px;
+}
+.spisok{
+	display: flex;
+	list-style: none;
+}
+.f{
+	display: flex;
+}
+.fpravo{
+	margin-left: auto;
+	margin-right: 0;
+}
+.ilement{
+	margin-right: 30px;
+}
+.fleft{
+	margin-left: 30px;
+}
+.link_menu:hover{
+	color: violet;
+}
+.hbbutton:hover{
+	color: white;
+	background: black;
+}
